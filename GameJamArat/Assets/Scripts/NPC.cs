@@ -39,14 +39,9 @@ public class NPC : MonoBehaviour
         //...
     }
 
-    public void IncreaseListen(float amount)
+    public void ModifyListen(float amount)
     {
         listen_percent += amount;
-        UpdateListenArea();
-    }
-    public void DecreaseListen(float amount)
-    {
-        listen_percent -= amount;
         UpdateListenArea();
     }
 

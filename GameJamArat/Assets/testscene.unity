@@ -563,9 +563,50 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465adc1b00d60d6499e3af6c901a6c3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ID_name: 
+  god: {fileID: 1342617906}
+  ID_name: PhoneMan
   move_speed: 0
-  listen_percent: 0
+  listen_percent: 1
+--- !u!1 &1342617905
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1342617907}
+  - 114: {fileID: 1342617906}
+  m_Layer: 0
+  m_Name: God
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1342617906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1342617905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d54a3e2ddb7db654fb372f81e229c021, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  max_radius: 10
+--- !u!4 &1342617907
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1342617905}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -16.2028179, y: -6.61404705, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
 --- !u!1 &1442178991
 GameObject:
   m_ObjectHideFlags: 0
