@@ -38,8 +38,8 @@ public class GOD : MonoBehaviour
     
 
     // PUBLIC MODIFIERS
-    public void Set_Active_NPC(NPC npc) {active_NPC=npc;}      // Set the NPC currently receiving commands.
-    public void Clear_Active_NPC() {active_NPC=null;}          // No NPC is currently recieving commands.
+    public void Set_Active_NPC(NPC npc) { active_NPC = npc; command_scroll = 0f; }      // Set the NPC currently receiving commands.
+    public void Clear_Active_NPC() { active_NPC = null; command_scroll = 0f; }          // No NPC is currently recieving commands.
     
     // PUBLIC HELPERS
     
@@ -47,7 +47,9 @@ public class GOD : MonoBehaviour
     {
         if ( (command_scroll > 0) && (active_NPC != null) )
         {
-            //if (Get_Listen(active_NPC) > )
+            active_NPC.ModifyListen(command_scroll);
+            listen_avail += command_scroll;
+            Clear_Active_NPC();
         }
     }
 }
