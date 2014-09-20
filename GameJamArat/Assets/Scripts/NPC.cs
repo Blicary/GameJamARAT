@@ -20,7 +20,7 @@ public class NPC : MonoBehaviour
     private void UpdateListenArea()
     {
         Collider2D[] col = Physics2D.OverlapCircleAll(transform.position, god.max_radius * listen_percent);
-        Debug.Log(col.Length);
+        //Debug.Log(col.Length);
         for (int i = 0; i < col.Length; ++i)
         {
             WorldComponent wc = col[i].gameObject.GetComponent<WorldComponent>();
@@ -34,7 +34,7 @@ public class NPC : MonoBehaviour
 
 
     // PUBLIC MODIFIERS
-    public void Update()
+    public void LateUpdate()
     {
         UpdateListenArea();
     }
@@ -53,4 +53,11 @@ public class NPC : MonoBehaviour
     // PUBLIC ACCESSORS
     public bool HasTag(string tag) { return tags.Contains(tag); }
     public float GetListen() { return listen_percent; }
+
+    //EVENTS
+    public void OnMouseEnter()
+    { 
+    
+    }
+
 }
