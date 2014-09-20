@@ -115,7 +115,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 90600bf47367b8845bb6874f694edd11, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 90600bf47367b8845bb6874f694edd11, type: 2}
@@ -132,13 +132,14 @@ GameObject:
   - 4: {fileID: 387517757}
   - 212: {fileID: 387517756}
   - 114: {fileID: 387517755}
+  - 61: {fileID: 387517758}
   m_Layer: 0
   m_Name: wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &387517755
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -187,6 +188,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
+--- !u!61 &387517758
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100000, guid: 90600bf47367b8845bb6874f694edd11,
+    type: 2}
+  m_PrefabInternal: {fileID: 159302206}
+  m_GameObject: {fileID: 387517754}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: 1, y: 1}
+  m_Center: {x: 0, y: 0}
 --- !u!1001 &587305627
 Prefab:
   m_ObjectHideFlags: 0
@@ -228,7 +241,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 90600bf47367b8845bb6874f694edd11, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 90600bf47367b8845bb6874f694edd11, type: 2}
@@ -276,7 +289,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 90600bf47367b8845bb6874f694edd11, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 90600bf47367b8845bb6874f694edd11, type: 2}
@@ -324,7 +337,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 0af756ec4ef86aa439a06e8878fdf695, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0af756ec4ef86aa439a06e8878fdf695, type: 2}
@@ -341,13 +354,14 @@ GameObject:
   - 4: {fileID: 1111438378}
   - 212: {fileID: 1111438377}
   - 114: {fileID: 1111438376}
+  - 61: {fileID: 1111438380}
   m_Layer: 0
   m_Name: backwall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1111438376
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -396,6 +410,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
+--- !u!61 &1111438380
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100000, guid: 0af756ec4ef86aa439a06e8878fdf695,
+    type: 2}
+  m_PrefabInternal: {fileID: 833651503}
+  m_GameObject: {fileID: 1111438375}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: 1, y: 1}
+  m_Center: {x: 0, y: 0}
 --- !u!1 &1116802076
 GameObject:
   m_ObjectHideFlags: 0
@@ -406,13 +432,14 @@ GameObject:
   - 4: {fileID: 1116802078}
   - 212: {fileID: 1116802077}
   - 114: {fileID: 1116802079}
+  - 61: {fileID: 1116802080}
   m_Layer: 0
   m_Name: wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &1116802077
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -461,6 +488,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tags: []
+--- !u!61 &1116802080
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100000, guid: 90600bf47367b8845bb6874f694edd11,
+    type: 2}
+  m_PrefabInternal: {fileID: 587305627}
+  m_GameObject: {fileID: 1116802076}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: 1, y: 1}
+  m_Center: {x: 0, y: 0}
 --- !u!1 &1159465212
 GameObject:
   m_ObjectHideFlags: 0
@@ -511,6 +550,7 @@ GameObject:
   - 4: {fileID: 1193839932}
   - 212: {fileID: 1193839931}
   - 114: {fileID: 1193839933}
+  - 61: {fileID: 1193839934}
   m_Layer: 0
   m_Name: Spr_Child
   m_TagString: Untagged
@@ -567,6 +607,17 @@ MonoBehaviour:
   ID_name: PhoneMan
   move_speed: 0
   listen_percent: 1
+--- !u!61 &1193839934
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1193839930}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: 8, y: 8}
+  m_Center: {x: 0, y: 0}
 --- !u!1 &1342617905
 GameObject:
   m_ObjectHideFlags: 0
@@ -701,13 +752,14 @@ GameObject:
   - 4: {fileID: 1650612936}
   - 212: {fileID: 1650612935}
   - 114: {fileID: 1650612937}
+  - 61: {fileID: 1650612938}
   m_Layer: 0
   m_Name: backwall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &1650612935
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -756,6 +808,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tags: []
+--- !u!61 &1650612938
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100000, guid: 0af756ec4ef86aa439a06e8878fdf695,
+    type: 2}
+  m_PrefabInternal: {fileID: 1907184911}
+  m_GameObject: {fileID: 1650612934}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: 1, y: 1}
+  m_Center: {x: 0, y: 0}
 --- !u!1 &1745437397
 GameObject:
   m_ObjectHideFlags: 0
@@ -766,13 +830,14 @@ GameObject:
   - 4: {fileID: 1745437400}
   - 212: {fileID: 1745437399}
   - 114: {fileID: 1745437398}
+  - 61: {fileID: 1745437401}
   m_Layer: 0
   m_Name: wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1745437398
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -821,6 +886,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
+--- !u!61 &1745437401
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100000, guid: 90600bf47367b8845bb6874f694edd11,
+    type: 2}
+  m_PrefabInternal: {fileID: 681596804}
+  m_GameObject: {fileID: 1745437397}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: 1, y: 1}
+  m_Center: {x: 0, y: 0}
 --- !u!1001 &1907184911
 Prefab:
   m_ObjectHideFlags: 0
@@ -862,7 +939,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 0af756ec4ef86aa439a06e8878fdf695, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0af756ec4ef86aa439a06e8878fdf695, type: 2}

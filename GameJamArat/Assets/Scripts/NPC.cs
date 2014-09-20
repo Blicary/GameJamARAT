@@ -20,10 +20,12 @@ public class NPC : MonoBehaviour
     private void UpdateListenArea()
     {
         Collider2D[] col = Physics2D.OverlapCircleAll(transform.position, god.max_radius * listen_percent);
+        Debug.Log(col.Length);
         for (int i = 0; i < col.Length; ++i)
         {
             WorldComponent wc = col[i].gameObject.GetComponent<WorldComponent>();
             if (wc != null) wc.TurnOn();
+
         }
     }
 

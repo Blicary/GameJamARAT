@@ -34,12 +34,12 @@ public class WorldComponent : MonoBehaviour
     public void TurnOn()
     {
         live_time = live_time_max;
-        gameObject.SetActive(true);
+        gameObject.renderer.enabled = true;
     }
     public void TurnOff()
     {
         live_time = 0;
-        gameObject.SetActive(false);
+        gameObject.renderer.enabled = false;
     }
 
     // PUBLIC ACCESSORS
