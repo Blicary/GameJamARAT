@@ -1,4 +1,4 @@
 1. Hover mouse over floating representation of person
 2. Scroll mouse up to increase radius. Radius is slightly dimmed.
-3. Click to confirm radius. Radius is now  brighter, character is now "selected." Can only select one character at a time.
+3. Click to confirm radius. Radius is now  brighter, character is now "selected." Can select multiple characters at a time.
 4. Click object within radius to select object. Character can now interact with object.
