@@ -1,8 +1,8 @@
 fileFormatVersion: 2
-guid: eb165f90fa4d02747a552034e55e34c0
+guid: b6d541d0824f14b49b9bd05f37de760e
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Spr_Child
+    21300000: spr_wall_bottom
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0

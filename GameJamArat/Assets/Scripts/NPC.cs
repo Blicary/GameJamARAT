@@ -24,7 +24,10 @@ public class NPC : MonoBehaviour
         for (int i = 0; i < col.Length; ++i)
         {
             WorldComponent wc = col[i].gameObject.GetComponent<WorldComponent>();
-            if (wc != null) wc.TurnOn();
+            if (wc != null)
+            {
+                wc.TurnOn();
+            }
 
         }
     }
