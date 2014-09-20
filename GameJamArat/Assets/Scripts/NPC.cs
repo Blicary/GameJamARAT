@@ -4,6 +4,8 @@ using System.Collections.Generic;
 
 public class NPC : MonoBehaviour 
 {
+    public GOD god; // ref to the god
+
     public string ID_name;
     private List<string> tags = new List<string>();
 
@@ -17,11 +19,11 @@ public class NPC : MonoBehaviour
     // PRIVATE MODIFIERS
     private void UpdateListenArea()
     {
-        Collider2D[] col = Physics2D.OverlapCircleAll(transform.position, 10, 9);
+        Collider2D[] col = Physics2D.OverlapCircleAll(transform.position, god.max_radius * listen_percent);
         for (int i = 0; i < col.Length; ++i)
         {
             WorldComponent wc = col[i].gameObject.GetComponent<WorldComponent>();
-            wc.TurnOn();
+            if (wc != null) wc.TurnOn();
         }
     }
 
