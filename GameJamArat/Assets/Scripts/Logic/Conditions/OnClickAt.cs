@@ -3,9 +3,7 @@ using System.Collections;
 
 public class OnClickAt : Condition
 {
-
     public Transform target;
-    public float radius;
 
     public override bool Met()
     {
