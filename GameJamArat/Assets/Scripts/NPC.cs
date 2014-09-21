@@ -93,6 +93,7 @@ public class NPC : MonoBehaviour
     //EVENTS
     public void OnMouseEnter()
     {
+        Debug.Log("Enter");
         god.SetHoveredNPC(this);
     }
 

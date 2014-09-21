@@ -78,6 +78,7 @@ public class GOD : MonoBehaviour
     // PUBLIC MODIFIERS
     public void SetHoveredNPC(NPC npc)
     {
+        Debug.Log(npc);
         mouse_over_NPC = npc;
     }
 
