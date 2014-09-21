@@ -9,6 +9,7 @@ public class WorldComponent : MonoBehaviour
     public List<string> tags = new List<string>();
 
     private bool hypothetical = false;
+    private Color hypothetical_color = new Color(0.4f, 0.3f, 0.7f);
 
     private float live_time_max = 1;
     private float live_time;
@@ -56,6 +57,14 @@ public class WorldComponent : MonoBehaviour
                 TurnOff();
             }
         }
+
+
+        // reset hypothetical coloring
+        SetColored(false);
+    }
+    public void EarlyUpdate()
+    {
+        
     }
 
     public void TurnOn()
@@ -89,7 +98,7 @@ public class WorldComponent : MonoBehaviour
     {
         if (set)
         {
-            GetComponent<SpriteRenderer>().color = Color.blue;
+            GetComponent<SpriteRenderer>().color = hypothetical_color;
             hypothetical = true;
         }
         else
@@ -97,11 +106,6 @@ public class WorldComponent : MonoBehaviour
             GetComponent<SpriteRenderer>().color = Color.white;
             hypothetical = false;
         }
-    }
-
-    public void OnNPCDeselect()
-    {
-        SetColored(false);
     }
 
 
