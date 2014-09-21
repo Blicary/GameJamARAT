@@ -7,8 +7,6 @@ public class Emote : MonoBehaviour
     private float timer;
     private Vector2 origin;
 
-    private bool waiting = false;
-
 
     public void Start()
     {
@@ -18,12 +16,9 @@ public class Emote : MonoBehaviour
 
     public void Update()
     {
-        if (waiting) return;
-
         if (timer <= 0)
         {
-            StartCoroutine("WaitBeforeLoop");
-            waiting = true;
+            ResetLoop();
         }
         else
         {
@@ -34,17 +29,6 @@ public class Emote : MonoBehaviour
         }
     }
 
-    private IEnumerable WaitBeforeLoop()
-    {
-        while (true)
-        {
-            Debug.Log("ici");
-            GetComponent<SpriteRenderer>().enabled = false;
-            yield return new WaitForSeconds(2);
-            ResetLoop();
-            waiting = false;
-        }
-    }
 
     public void ResetLoop()
     {
