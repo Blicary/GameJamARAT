@@ -20,16 +20,12 @@ public class GOD : MonoBehaviour
     {
 	    if (active_NPC != null)
         {
-            //command_scroll += Input.GetAxis("Mouse ScrollWheel"); // How much listen does the player want to spend?
-            
             float tmp_listen = active_NPC.GetListen();
 
             if (Input.GetKey("up"))
             { command_scroll += .01f; }
             else if (Input.GetKey("down"))
             { command_scroll -= .01f; }
-
-            
 
             if ( tmp_listen + command_scroll < 0)       // don't let the player give an npc negative listen.
             { 
@@ -41,6 +37,20 @@ public class GOD : MonoBehaviour
                 command_scroll = listen_avail;
             }
 
+            // Check for mouse click
+            if (Input.GetMouseButtonDown(0))
+            {
+                Debug.Log("Enter thing");
+                if (active_NPC != null)
+                {
+
+                    active_NPC.ModifyListen(command_scroll);
+                    listen_avail += command_scroll;
+                    Clear_Active_NPC();
+                }
+            }
+
+
             //Debug.Log(command_scroll);
         }
 	}
@@ -48,20 +58,17 @@ public class GOD : MonoBehaviour
     
 
     // PUBLIC MODIFIERS
-    public void Set_Active_NPC(NPC npc) { active_NPC = npc; command_scroll = 0f; }      // Set the NPC currently receiving commands.
-    public void Clear_Active_NPC() { active_NPC = null; command_scroll = 0f; }          // No NPC is currently recieving commands.
+    public void Set_Active_NPC(NPC npc)// Set the NPC currently receiving commands.    
+    {
+        active_NPC = npc;
+        command_scroll = 0f; 
+    }      
+    public void Clear_Active_NPC() // No NPC is currently recieving commands.
+    {
+        active_NPC = null; 
+        command_scroll = 0f;
+    }          
     
     // PUBLIC HELPERS
     
-    public void OnMouseDown()                     // The player confirm listen expendature.
-    {
-        Debug.Log("Enter thing");
-        if ( (command_scroll > 0) && (active_NPC != null) )
-        {
-
-            active_NPC.ModifyListen(command_scroll);
-            listen_avail += command_scroll;
-            Clear_Active_NPC();
-        }
-    }
 }
