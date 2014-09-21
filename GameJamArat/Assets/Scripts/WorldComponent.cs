@@ -9,7 +9,7 @@ public class WorldComponent : MonoBehaviour
     public List<string> tags = new List<string>();
 
     private bool hypothetical = false;
-    private Color hypothetical_color = new Color(0.4f, 0.3f, 0.7f);
+    private Color hypothetical_color = new Color(0.92f, 0.66f, 0.25f);
 
     private float live_time_max = 1;
     private float live_time;
