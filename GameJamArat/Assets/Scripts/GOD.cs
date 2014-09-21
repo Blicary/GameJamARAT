@@ -20,7 +20,7 @@ public class GOD : MonoBehaviour
     {
 	    if (active_NPC != null)
         {
-            command_scroll += Input.GetAxis("Mouse ScrollWheel"); // How much listen does the player want to spend?
+            //command_scroll += Input.GetAxis("Mouse ScrollWheel"); // How much listen does the player want to spend?
             
             float tmp_listen = active_NPC.GetListen();
             if ( tmp_listen + command_scroll < 0)       // don't let the player give an npc negative listen.

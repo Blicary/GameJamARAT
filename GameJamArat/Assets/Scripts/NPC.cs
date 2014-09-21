@@ -56,8 +56,13 @@ public class NPC : MonoBehaviour
 
     //EVENTS
     public void OnMouseEnter()
-    { 
-    
+    {
+        god.Set_Active_NPC(this);
+    }
+
+    public void OnMouseExit()
+    {
+        god.Clear_Active_NPC();
     }
 
 }
