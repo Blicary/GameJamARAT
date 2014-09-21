@@ -9,6 +9,6 @@ public class CursorController : MonoBehaviour
 
     public void Start()
     {
-        Cursor.SetCursor(normal_texture, Vector2.zero, CursorMode.ForceSoftware);
+        Cursor.SetCursor(normal_texture, new Vector2(30, 21), CursorMode.ForceSoftware);
     }
 }
