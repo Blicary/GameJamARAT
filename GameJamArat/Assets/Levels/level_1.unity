@@ -1270,7 +1270,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   subject_NPC: {fileID: 1562443996}
-  target_destination: {fileID: 405337710}
+  target_destination: {fileID: 902169000}
 --- !u!1001 &344339036
 Prefab:
   m_ObjectHideFlags: 0
@@ -1553,33 +1553,6 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 0a48988eaff706f46aeb874dda262d06, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
---- !u!1 &405337709
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 405337710}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &405337710
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 405337709}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.01401901, y: 3.05709553, z: 15.4633789}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
 --- !u!1001 &432630005
 Prefab:
   m_ObjectHideFlags: 0
@@ -2228,7 +2201,7 @@ GameObject:
   - 114: {fileID: 570011194}
   - 114: {fileID: 570011193}
   m_Layer: 0
-  m_Name: Logic1
+  m_Name: Logic2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2270,7 +2243,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   object1: {fileID: 1562443997}
-  object2: {fileID: 405337710}
+  object2: {fileID: 902169000}
   distance: 1
 --- !u!114 &570011195
 MonoBehaviour:
@@ -2481,6 +2454,57 @@ Prefab:
   m_RootGameObject: {fileID: 207394082}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &601993312
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 601993314}
+  - 132: {fileID: 601993313}
+  m_Layer: 0
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!132 &601993313
+GUIText:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 601993312}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Text: Try clicking on the man...
+  m_Anchor: 0
+  m_Alignment: 0
+  m_PixelOffset: {x: 200, y: 550}
+  m_LineSpacing: 1
+  m_TabSize: 4
+  m_Font: {fileID: 12800000, guid: 474d9bfa888c37f48936d31116733901, type: 3}
+  m_Material: {fileID: 2100000, guid: 474d9bfa888c37f48936d31116733901, type: 3}
+  m_FontSize: 25
+  m_FontStyle: 0
+  m_Color:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_PixelCorrect: 1
+  m_RichText: 1
+--- !u!4 &601993314
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 601993312}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
 --- !u!1001 &610629056
 Prefab:
   m_ObjectHideFlags: 0
