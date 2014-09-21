@@ -14,7 +14,6 @@ public class LevelComplete : Effect
     {
         while (true)
         {
-            Debug.Log(Time.time);
             yield return new WaitForSeconds(3);
             loader.NextLevel();
         }
