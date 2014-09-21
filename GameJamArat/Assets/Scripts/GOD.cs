@@ -87,7 +87,7 @@ public class GOD : MonoBehaviour
 
     public NPC GetActiveNPC()
     {
-        if (active_NPC != null)
+        if (active_NPC == null)
         {
             return null;
         }
