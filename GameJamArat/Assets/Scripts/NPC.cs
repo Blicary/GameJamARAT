@@ -9,8 +9,13 @@ public class NPC : MonoBehaviour
     public string ID_name;
     private List<string> tags = new List<string>();
 
-    public float move_speed;
+    public float move_speed = 5f;
     private Vector2 target_pos;
+    private Vector2 start_pos;
+    private float fraction_speed;
+    private float start_time;
+    private float travel_distance;
+    private bool is_moving = false;
 
     private float listen_percent = 0.0f;
     private bool selected = false;
@@ -48,6 +53,14 @@ public class NPC : MonoBehaviour
         }
     }
 
+    public void Update()
+    {
+        if (is_moving)
+        {
+            UpdatePosition();
+        }
+    }
+
 
     // PUBLIC MODIFIERS
     public void LateUpdate()
@@ -56,9 +69,20 @@ public class NPC : MonoBehaviour
         UpdateHypotheticalListenArea();
     }
 
-    public void Move(Vector2 dest)
+    public void Move(Vector2 dest) // Call this during scripting to move the nPC to a location.
     {
-        //...
+        start_time = Time.time;
+        target_pos = dest;
+        is_moving = true;
+        start_pos = transform.position;
+        travel_distance = Vector2.Distance(start_pos, target_pos);
+    }
+
+    private void UpdatePosition() // The NPC uses this to execute actual movement.
+    {
+        float dist_covered = (Time.time - start_time) * move_speed;
+        float fracJourney = dist_covered / travel_distance;
+        Vector2.Lerp(start_pos, target_pos, fracJourney);
     }
 
     public void ModifyListen(float amount)
@@ -93,14 +117,14 @@ public class NPC : MonoBehaviour
     //EVENTS
     public void OnMouseEnter()
     {
-        Debug.Log("Enter");
+        //Debug.Log("Enter");
         god.SetHoveredNPC(this);
     }
 
     public void OnMouseExit()
     {
         god.ClearHoveredNPC();
-        Debug.Log("Exit");
+        //Debug.Log("Exit");
     }
 
 }

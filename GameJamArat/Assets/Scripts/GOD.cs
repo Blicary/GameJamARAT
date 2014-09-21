@@ -55,8 +55,8 @@ public class GOD : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
-            Debug.Log("Down");
-            Debug.Log(mouse_over_NPC);
+            //Debug.Log("Down");
+            //Debug.Log(mouse_over_NPC);
             if ((active_NPC == null) && (mouse_over_NPC != null) )
             {
                 
@@ -78,7 +78,7 @@ public class GOD : MonoBehaviour
     // PUBLIC MODIFIERS
     public void SetHoveredNPC(NPC npc)
     {
-        Debug.Log(npc);
+        //Debug.Log(npc);
         mouse_over_NPC = npc;
     }
 
