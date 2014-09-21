@@ -1,0 +1,11 @@
+Puzzle 1:
+
+Click on the man, expand his radius, then click the phone. The man notices the ringing telephone and answers it.
+
+Puzzle 2:
+
+Click on the boy, then click on the ice cream. Then the candy, then the cookie. The puzzle will continue to loop unless the player then selects the mother and clicks on the son. The mother goes over and comforts the son.
+
+Puzzle 3:
+
+Dog is standing in road. Car is approaching dog. Dog can hear car approach (pitch and volume). Player hears dog AND car. Player must use man to throw bone across road. Dog will follow.
