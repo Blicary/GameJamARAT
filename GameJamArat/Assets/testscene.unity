@@ -3206,6 +3206,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1342617907}
   - 114: {fileID: 1342617906}
+  - 114: {fileID: 1342617908}
   m_Layer: 0
   m_Name: God
   m_TagString: Untagged
@@ -3239,6 +3240,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
+--- !u!114 &1342617908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1342617905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c64225c55dcf9724087838285b8f06a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  god: {fileID: 1342617906}
+  npc: {fileID: 1193839933}
+  cam_shake: {fileID: 1442178997}
 --- !u!1 &1366481342
 GameObject:
   m_ObjectHideFlags: 0
@@ -3445,6 +3460,7 @@ GameObject:
   - 92: {fileID: 1442178994}
   - 124: {fileID: 1442178993}
   - 81: {fileID: 1442178992}
+  - 114: {fileID: 1442178997}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -3517,6 +3533,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!114 &1442178997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1442178991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3f1317bed7a89b44b4c1295e3128db8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  max_offset_distance: 1
 --- !u!1 &1458964881
 GameObject:
   m_ObjectHideFlags: 0
