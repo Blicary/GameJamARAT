@@ -7,7 +7,7 @@ public class LevelComplete : Effect
 
     public override void Do()
     {
-        loader.NextLevel();
+        StartCoroutine("NextLevel");
     }
 
     private IEnumerator NextLevel()
@@ -15,7 +15,8 @@ public class LevelComplete : Effect
         while (true)
         {
             Debug.Log(Time.time);
-            yield return null;
+            yield return new WaitForSeconds(3);
+            loader.NextLevel();
         }
     }
 }
