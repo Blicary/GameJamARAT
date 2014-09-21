@@ -78,8 +78,8 @@ public class NPC : MonoBehaviour
         RaycastHit2D hit = Physics2D.Linecast(transform.position, obj.transform.position);
         
         float dist = Vector2.Distance(transform.position, obj.transform.position);
-        Debug.Log("hit dist " + hit.distance);
-        Debug.Log("vision radius " + god.max_radius * listen_percent);
+        //Debug.Log("hit dist " + hit.distance);
+        //Debug.Log("vision radius " + god.max_radius * listen_percent);
 
         if (hit != null)
         {

@@ -22,6 +22,11 @@ public class LevelLoader : MonoBehaviour
 
     private void LoadLevel()
     {
+        if (level_index >= levels_ordered.Count)
+        {
+            Debug.Log("No more levels");
+            return;
+        }
         Application.LoadLevel(levels_ordered[level_index]);
     }
 }
