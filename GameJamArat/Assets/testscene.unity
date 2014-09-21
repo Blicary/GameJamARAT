@@ -3109,7 +3109,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   max_radius: 40
-  listen_avail: 0
 --- !u!4 &1342617907
 Transform:
   m_ObjectHideFlags: 0
