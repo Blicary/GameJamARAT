@@ -26,8 +26,8 @@ public class WorldComponent : MonoBehaviour
     {
         live_time = live_time_max;
 
-        state = WorldComponentState.On;
-        renderer.enabled = true;
+        state = WorldComponentState.Off;
+        renderer.enabled = false;
     }
 
     public void Update()

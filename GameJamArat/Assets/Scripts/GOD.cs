@@ -39,7 +39,6 @@ public class GOD : MonoBehaviour
                 command_scroll = listen_avail;
             }
 
-            Debug.Log(command_scroll);
             // Check for mouse click
             if (Input.GetMouseButtonDown(0))
             {

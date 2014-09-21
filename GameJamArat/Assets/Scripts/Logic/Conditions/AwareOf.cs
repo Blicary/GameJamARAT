@@ -8,6 +8,6 @@ public class AwareOf : Condition
 
     public override bool Met()
     {
-        return true;
+        return npc.AwareOfObject(obj);
     }
 }

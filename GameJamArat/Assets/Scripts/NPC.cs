@@ -76,9 +76,15 @@ public class NPC : MonoBehaviour
     public bool AwareOfObject(WorldComponent obj)
     {
         RaycastHit2D hit = Physics2D.Linecast(transform.position, obj.transform.position);
+        
+        float dist = Vector2.Distance(transform.position, obj.transform.position);
+        Debug.Log("hit dist " + hit.distance);
+        Debug.Log("vision radius " + god.max_radius * listen_percent);
+
         if (hit != null)
         {
-            if (hit.distance < god.max_radius * listen_percent) return true;
+            float vision_radius = god.max_radius * listen_percent;
+            if (vision_radius >= dist) return true;
         }
         return false;
     }
