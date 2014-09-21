@@ -55,19 +55,6 @@ public class WorldComponent : MonoBehaviour
         }
     }
 
-    private void Flicker()
-    {
-        if ((int)(flicker_time * 100) % 4 == 0)
-        {
-            if (Random.value > 0.5f)
-            {
-                renderer.enabled = true;
-            }
-            else
-                renderer.enabled = false;
-        }
-    }
-
     public void TurnOn()
     {
         if (state == WorldComponentState.FlickeringOff) SetOn();
@@ -83,12 +70,24 @@ public class WorldComponent : MonoBehaviour
         flicker_time = flicker_time_max;
         gameObject.renderer.enabled = false;
     }
-
-    public void DoMiniFlicker()
+    public void SetColored()
     {
-        state = WorldComponentState.FlickeringOn;
-        flicker_time = flicker_time_max;
-        gameObject.renderer.enabled = true;
+        GetComponent<SpriteRenderer>().color = Color.blue;
+    }
+
+
+    // PRIVATE MODIFIERS
+    private void Flicker()
+    {
+        if ((int)(flicker_time * 100) % 4 == 0)
+        {
+            if (Random.value > 0.5f)
+            {
+                renderer.enabled = true;
+            }
+            else
+                renderer.enabled = false;
+        }
     }
 
     private void SetOn()
@@ -103,6 +102,13 @@ public class WorldComponent : MonoBehaviour
         state = WorldComponentState.Off;
         live_time = 0;
     }
+    private void DoMiniFlicker()
+    {
+        state = WorldComponentState.FlickeringOn;
+        flicker_time = flicker_time_max;
+        gameObject.renderer.enabled = true;
+    }
+    
 
 
     // PUBLIC ACCESSORS

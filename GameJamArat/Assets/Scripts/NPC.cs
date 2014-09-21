@@ -30,12 +30,28 @@ public class NPC : MonoBehaviour
 
         }
     }
+    private void UpdateHypotheticalListenArea()
+    {
+        Debug.Log("hype rad" + god.GetHypotheticalPercent() * god.max_radius);
+        Collider2D[] col = Physics2D.OverlapCircleAll(transform.position, god.GetHypotheticalPercent() * god.max_radius);
+        //Debug.Log(col.Length);
+        for (int i = 0; i < col.Length; ++i)
+        {
+            WorldComponent wc = col[i].gameObject.GetComponent<WorldComponent>();
+            if (wc != null)
+            {
+                wc.TurnOn();
+                wc.SetColored();
+            }
 
+        }
+    }
 
     // PUBLIC MODIFIERS
     public void LateUpdate()
     {
         UpdateListenArea();
+        UpdateHypotheticalListenArea();
     }
 
     public void Move(Vector2 dest)
@@ -48,7 +64,7 @@ public class NPC : MonoBehaviour
         
         listen_percent += amount;
         UpdateListenArea();
-        //Debug.Log(listen_percent);
+        Debug.Log(listen_percent);
     }
 
     // PUBLIC ACCESSORS
