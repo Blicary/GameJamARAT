@@ -20,6 +20,9 @@ public class NPC : MonoBehaviour
     private float listen_percent = 0.0f;
     private bool selected = false;
 
+    private CursorController cursor_controller;
+
+
     // PRIVATE MODIFIERS
     private void UpdateListenArea()
     {
@@ -53,6 +56,18 @@ public class NPC : MonoBehaviour
         }
     }
 
+
+    // PUBLIC MODIFIERS
+    public void Start()
+    {
+        // get cursor controller
+        GameObject go = GameObject.Find("CursorController");
+        if (go != null)
+        {
+            cursor_controller = go.GetComponent<CursorController>();
+        }
+    }
+
     public void Update()
     {
         if (is_moving)
@@ -61,8 +76,6 @@ public class NPC : MonoBehaviour
         }
     }
 
-
-    // PUBLIC MODIFIERS
     public void LateUpdate()
     {
         UpdateListenArea();
@@ -139,14 +152,14 @@ public class NPC : MonoBehaviour
     //EVENTS
     public void OnMouseEnter()
     {
-        //Debug.Log("Enter");
         god.SetHoveredNPC(this);
+        cursor_controller.SetHover();
     }
 
     public void OnMouseExit()
     {
         god.ClearHoveredNPC();
-        //Debug.Log("Exit");
+        cursor_controller.SetNormal();
     }
 
 }

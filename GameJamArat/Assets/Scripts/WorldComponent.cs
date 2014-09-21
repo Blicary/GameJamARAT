@@ -80,12 +80,12 @@ public class WorldComponent : MonoBehaviour
 
     public void OnMouseOver()
     {
-        if (cursor_controller != null)
+        if (cursor_controller != null && tag == "Interactive")
             cursor_controller.SetHover();
     }
     public void OnMouseExit()
     {
-        if (cursor_controller != null)
+        if (cursor_controller != null && tag == "Interactive")
             cursor_controller.SetNormal();
     }
 
