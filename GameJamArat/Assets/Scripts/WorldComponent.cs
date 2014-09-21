@@ -9,6 +9,7 @@ public class WorldComponent : MonoBehaviour
     public List<string> tags = new List<string>();
 
     private CameraShake cam_shake;
+    private CursorController cursor_controller;
 
     public Material mat_normal;
     public Material mat_hypothetical;
@@ -35,6 +36,13 @@ public class WorldComponent : MonoBehaviour
 
         cam_shake = Camera.main.GetComponent<CameraShake>();
         if (!cam_shake) Debug.Log("Warning: no camera shake found on main camera");
+
+        // get cursor controller
+        GameObject go = GameObject.Find("CursorController");
+        if (go != null)
+        {
+            cursor_controller = go.GetComponent<CursorController>();
+        }
     }
 
     public void Update()
@@ -69,9 +77,16 @@ public class WorldComponent : MonoBehaviour
         // reset hypothetical coloring
         SetColored(false);
     }
-    public void EarlyUpdate()
+
+    public void OnMouseOver()
     {
-        
+        if (cursor_controller != null)
+            cursor_controller.SetHover();
+    }
+    public void OnMouseExit()
+    {
+        if (cursor_controller != null)
+            cursor_controller.SetNormal();
     }
 
     public void TurnOn()
