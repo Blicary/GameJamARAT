@@ -30,7 +30,10 @@ public class GOD : MonoBehaviour
             tmp_position3d -= new Vector3(0, 0, 10);
 
             command_scroll = ((tmp_position3d - Camera.main.ScreenToWorldPoint(Input.mousePosition)).magnitude / max_radius);
-           
+            if (command_scroll < .1)
+            {
+                command_scroll = 0;
+            }
 
             if (command_scroll - tmp_listen > listen_avail)          // Don't let the player spend moar listen than they have.
             {
@@ -63,7 +66,6 @@ public class GOD : MonoBehaviour
                 listen_avail -= command_scroll - tmp_listen;
                 command_scroll = 0f;
                 ClearActiveNPC();
-
             }
         }
 	}

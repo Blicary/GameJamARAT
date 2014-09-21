@@ -66,7 +66,7 @@ public class NPC : MonoBehaviour
         
         listen_percent = amount;
         UpdateListenArea();
-        Debug.Log(listen_percent);
+        //Debug.Log(listen_percent);
     }
 
 
