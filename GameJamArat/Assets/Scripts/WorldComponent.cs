@@ -8,9 +8,11 @@ public class WorldComponent : MonoBehaviour
 {
     public List<string> tags = new List<string>();
 
-    private bool hypothetical = false;
-    private Color hypothetical_color = new Color(0.92f, 0.66f, 0.25f);
+    public Material mat_normal;
+    public Material mat_hypothetical;
 
+    private bool hypothetical = false;
+    
     private float live_time_max = 1;
     private float live_time;
     private float flicker_time_max = 0.5f;
@@ -98,12 +100,12 @@ public class WorldComponent : MonoBehaviour
     {
         if (set)
         {
-            GetComponent<SpriteRenderer>().color = hypothetical_color;
+            renderer.material = mat_hypothetical;
             hypothetical = true;
         }
         else
         {
-            GetComponent<SpriteRenderer>().color = Color.white;
+            renderer.material = mat_normal;
             hypothetical = false;
         }
     }
