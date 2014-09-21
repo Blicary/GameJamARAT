@@ -46,6 +46,7 @@ public class NPC : MonoBehaviour
 
     public void ModifyListen(float amount)
     {
+        Debug.Log(listen_percent);
         listen_percent += amount;
         UpdateListenArea();
     }
