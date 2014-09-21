@@ -30,33 +30,18 @@ public class GOD : MonoBehaviour
             tmp_position3d -= new Vector3(0, 0, 10);
 
             command_scroll = ((tmp_position3d - Camera.main.ScreenToWorldPoint(Input.mousePosition)).magnitude / max_radius);
-            
-
-//            if (Input.GetKey("up"))
-//            { command_scroll += .01f; }
-//            else if (Input.GetKey("down"))
-//            { command_scroll -= .01f; }
+           
 
             if (command_scroll - tmp_listen > listen_avail)          // Don't let the player spend moar listen than they have.
             {
                 command_scroll = listen_avail;
             }
-            Debug.Log(command_scroll);
-            //Debug.Log(command_scroll);
             // Check for mouse click
 
             if (Input.GetMouseButtonDown(1))
             {
                 command_scroll = 0f;
                 ClearActiveNPC();
-                //Debug.Log("Enter thing");
- //               if (active_NPC != null)
- //               {
- //                   active_NPC.ModifyListen(command_scroll);
- //                   listen_avail -= command_scroll;
- //                   command_scroll = 0f;
- //                   // Clear_Active_NPC();
- //               }
             }
 
 
@@ -77,6 +62,7 @@ public class GOD : MonoBehaviour
                 active_NPC.ModifyListen(command_scroll);
                 listen_avail -= command_scroll - tmp_listen;
                 command_scroll = 0f;
+                ClearActiveNPC();
 
             }
         }
@@ -87,13 +73,11 @@ public class GOD : MonoBehaviour
     // PUBLIC MODIFIERS
     public void SetHoveredNPC(NPC npc)
     {
-        Debug.Log("Set hover npc");
         mouse_over_NPC = npc;
     }
 
     public void ClearHoveredNPC()
     {
-        Debug.Log("Clear hover npc");
         mouse_over_NPC = null;
     }
 
@@ -101,13 +85,11 @@ public class GOD : MonoBehaviour
 
     public void SetActiveNPC(NPC npc)// Set the NPC currently receiving commands.    
     {
-        Debug.Log("Set Active");
         active_NPC = npc;
         command_scroll = 0f; 
     }      
     public void ClearActiveNPC() // No NPC is currently recieving commands.
     {
-        Debug.Log("Clear Active");
         active_NPC = null; 
         command_scroll = 0f;
     }          
