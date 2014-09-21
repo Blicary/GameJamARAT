@@ -12,7 +12,7 @@ public class WorldComponent : MonoBehaviour
     private float live_time;
     private float flicker_time_max = 1;
     private float flicker_time;
-    private float mini_flicker_chance = 0.001f;
+    private float mini_flicker_chance = 0.0007f;
 
 
     private WorldComponentState state;
