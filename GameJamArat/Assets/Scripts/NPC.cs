@@ -12,7 +12,7 @@ public class NPC : MonoBehaviour
     public float move_speed;
     private Vector2 target_pos;
 
-    public float listen_percent;
+    private float listen_percent = 0.0f;
 
 
 
@@ -46,9 +46,10 @@ public class NPC : MonoBehaviour
 
     public void ModifyListen(float amount)
     {
-        Debug.Log(listen_percent);
+        
         listen_percent += amount;
         UpdateListenArea();
+        Debug.Log(listen_percent);
     }
 
     // PUBLIC ACCESSORS
@@ -58,12 +59,12 @@ public class NPC : MonoBehaviour
     //EVENTS
     public void OnMouseEnter()
     {
-        god.Set_Active_NPC(this);
+        god.SetActiveNPC(this);
     }
 
     public void OnMouseExit()
     {
-        god.Clear_Active_NPC();
+        god.ClearActiveNPC();
     }
 
 }
