@@ -73,7 +73,7 @@ public class GOD : MonoBehaviour
     }          
     
     // PUBLIC HELPERS
-    public float GetHypotheticalRadius() // Obtain the hypothetical radius.
+    public float GetHypotheticalPercent() // Obtain the hypothetical radius.
     {
         if (active_NPC != null)
         {
