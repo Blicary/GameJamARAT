@@ -68,7 +68,7 @@ public class GOD : MonoBehaviour
     }      
     public void ClearActiveNPC() // No NPC is currently recieving commands.
     {
-        gameObject.SendMessage("OnNPCDeselect");
+        BroadcastMessage("OnNPCDeselect");
         active_NPC = null; 
         command_scroll = 0f;
     }          
