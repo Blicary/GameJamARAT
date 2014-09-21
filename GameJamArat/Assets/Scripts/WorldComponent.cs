@@ -50,12 +50,15 @@ public class WorldComponent : MonoBehaviour
 
     public void Flicker()
     {
-        if (Random.value > 0.5f)
+        if ((int)(flicker_time * 100) % 4 == 0)
         {
-            renderer.enabled = true;
+            if (Random.value > 0.5f)
+            {
+                renderer.enabled = true;
+            }
+            else
+                renderer.enabled = false;
         }
-        else
-            renderer.enabled = false;
     }
 
     public void TurnOn()
