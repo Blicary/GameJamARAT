@@ -43,7 +43,7 @@ public class GOD : MonoBehaviour
             // Check for mouse click
             if (Input.GetMouseButtonDown(0))
             {
-                Debug.Log("Enter thing");
+                //Debug.Log("Enter thing");
                 if (active_NPC != null)
                 {
                     active_NPC.ModifyListen(command_scroll);
@@ -75,7 +75,7 @@ public class GOD : MonoBehaviour
     // PUBLIC HELPERS
     public float GetHypotheticalPercent() // Obtain the hypothetical radius.
     {
-        if (active_NPC != null)
+        if (active_NPC == null)
         {
             return 0f;
         }
