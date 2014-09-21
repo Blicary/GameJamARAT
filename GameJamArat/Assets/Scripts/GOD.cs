@@ -5,8 +5,10 @@ public class GOD : MonoBehaviour
 {
 
     public float max_radius = 40f;            // The total listen radius possible.
-    private float max_listen = 1.0f;
-    private float listen_avail;        // The net amount of listen available.
+    public float max_listen = 1.0f;
+    public float listen_avail;        // The net amount of listen available.
+
+    private NPC mouse_over_NPC;         // The NPC that the mouse is currently over.
 
     private NPC active_NPC;             // The NPC that is currently selected to recieve listen.
     private float command_scroll = 0.0f;      // The amount of listen to be imparted to the selected NPC.    
@@ -24,50 +26,88 @@ public class GOD : MonoBehaviour
         {
             tmp_listen = active_NPC.GetListen();
 
-            if (Input.GetKey("up"))
-            { command_scroll += .01f; }
-            else if (Input.GetKey("down"))
-            { command_scroll -= .01f; }
+            Vector3 tmp_position3d = active_NPC.transform.position;
+            tmp_position3d -= new Vector3(0, 0, 10);
 
-            if ( tmp_listen + command_scroll < 0)       // don't let the player give an npc negative listen.
-            { 
-                command_scroll = -(tmp_listen);
-            }
+            command_scroll = ((tmp_position3d - Camera.main.ScreenToWorldPoint(Input.mousePosition)).magnitude / max_radius);
             
-            if (command_scroll > listen_avail)          // Don't let the player spend moar listen than they have.
+
+//            if (Input.GetKey("up"))
+//            { command_scroll += .01f; }
+//            else if (Input.GetKey("down"))
+//            { command_scroll -= .01f; }
+
+            if (command_scroll - tmp_listen > listen_avail)          // Don't let the player spend moar listen than they have.
             {
                 command_scroll = listen_avail;
             }
-
             Debug.Log(command_scroll);
+            //Debug.Log(command_scroll);
             // Check for mouse click
-            if (Input.GetMouseButtonDown(0))
+
+            if (Input.GetMouseButtonDown(1))
             {
+                command_scroll = 0f;
+                ClearActiveNPC();
                 //Debug.Log("Enter thing");
-                if (active_NPC != null)
-                {
-                    active_NPC.ModifyListen(command_scroll);
-                    listen_avail -= command_scroll;
-                    command_scroll = 0f;
-                   // Clear_Active_NPC();
-                }
+ //               if (active_NPC != null)
+ //               {
+ //                   active_NPC.ModifyListen(command_scroll);
+ //                   listen_avail -= command_scroll;
+ //                   command_scroll = 0f;
+ //                   // Clear_Active_NPC();
+ //               }
             }
 
 
+
+
             //Debug.Log(command_scroll);
+        }
+
+        if (Input.GetMouseButtonDown(0))
+        {
+
+            if ((mouse_over_NPC != null) && (active_NPC == null))
+            {
+                SetActiveNPC(mouse_over_NPC);
+            }
+            else
+            {
+                active_NPC.ModifyListen(command_scroll);
+                listen_avail -= command_scroll - tmp_listen;
+                command_scroll = 0f;
+
+            }
         }
 	}
     // EVENTS
     
 
     // PUBLIC MODIFIERS
+    public void SetHoveredNPC(NPC npc)
+    {
+        Debug.Log("Set hover npc");
+        mouse_over_NPC = npc;
+    }
+
+    public void ClearHoveredNPC()
+    {
+        Debug.Log("Clear hover npc");
+        mouse_over_NPC = null;
+    }
+
+
+
     public void SetActiveNPC(NPC npc)// Set the NPC currently receiving commands.    
     {
+        Debug.Log("Set Active");
         active_NPC = npc;
         command_scroll = 0f; 
     }      
     public void ClearActiveNPC() // No NPC is currently recieving commands.
     {
+        Debug.Log("Clear Active");
         active_NPC = null; 
         command_scroll = 0f;
     }          
@@ -81,7 +121,7 @@ public class GOD : MonoBehaviour
         }
         else
         {
-            return tmp_listen + command_scroll;
+            return command_scroll;
         }
     }
 
