@@ -99,6 +99,7 @@ public class NPC : MonoBehaviour
     public void OnMouseExit()
     {
         god.ClearHoveredNPC();
+        Debug.Log("Exit");
     }
 
 }

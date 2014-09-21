@@ -30,10 +30,10 @@ public class GOD : MonoBehaviour
             tmp_position3d -= new Vector3(0, 0, 10);
 
             command_scroll = ((tmp_position3d - Camera.main.ScreenToWorldPoint(Input.mousePosition)).magnitude / max_radius);
-            if (command_scroll < .1)
-            {
-                command_scroll = 0;
-            }
+            //if (command_scroll < .1)
+            //{
+            //    command_scroll = 0;
+            //}
 
             if (command_scroll - tmp_listen > listen_avail)          // Don't let the player spend moar listen than they have.
             {
@@ -55,16 +55,19 @@ public class GOD : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
-
-            if ((mouse_over_NPC != null) && (active_NPC == null))
+            Debug.Log("Down");
+            Debug.Log(mouse_over_NPC);
+            if ((active_NPC == null) && (mouse_over_NPC != null) )
             {
+                
                 SetActiveNPC(mouse_over_NPC);
             }
-            else
+            else if (active_NPC != null)
             {
                 active_NPC.ModifyListen(command_scroll);
                 listen_avail -= command_scroll - tmp_listen;
                 command_scroll = 0f;
+                //Debug.Log("Enter Clear");
                 ClearActiveNPC();
             }
         }
@@ -80,6 +83,7 @@ public class GOD : MonoBehaviour
 
     public void ClearHoveredNPC()
     {
+        //Debug.Log("clear");
         mouse_over_NPC = null;
     }
 
