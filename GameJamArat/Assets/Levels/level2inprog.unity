@@ -87,7 +87,7 @@ GameObject:
   - 114: {fileID: 1112141}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -167,7 +167,7 @@ GameObject:
   - 114: {fileID: 10511605}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -247,7 +247,7 @@ GameObject:
   - 114: {fileID: 12998957}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -327,7 +327,7 @@ GameObject:
   - 114: {fileID: 16831798}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -464,7 +464,7 @@ GameObject:
   - 114: {fileID: 28355628}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -662,7 +662,7 @@ GameObject:
   - 114: {fileID: 42249757}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -880,7 +880,7 @@ GameObject:
   - 114: {fileID: 60347415}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1074,7 +1074,7 @@ GameObject:
   - 114: {fileID: 82636774}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1154,7 +1154,7 @@ GameObject:
   - 114: {fileID: 84170829}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1374,7 +1374,7 @@ GameObject:
   - 114: {fileID: 92528129}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1494,7 +1494,7 @@ GameObject:
   - 114: {fileID: 100366392}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1688,7 +1688,7 @@ GameObject:
   - 114: {fileID: 130028866}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1768,7 +1768,7 @@ GameObject:
   - 114: {fileID: 136394375}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1905,7 +1905,7 @@ GameObject:
   - 114: {fileID: 144750129}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2205,7 +2205,7 @@ GameObject:
   - 114: {fileID: 178173619}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2285,7 +2285,7 @@ GameObject:
   - 114: {fileID: 195487683}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2422,7 +2422,7 @@ GameObject:
   - 114: {fileID: 214396898}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2791,7 +2791,7 @@ GameObject:
   - 114: {fileID: 246741836}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2871,7 +2871,7 @@ GameObject:
   - 114: {fileID: 257075094}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3065,7 +3065,7 @@ GameObject:
   - 114: {fileID: 267765202}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3194,7 +3194,7 @@ GameObject:
   - 114: {fileID: 278806541}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3274,7 +3274,7 @@ GameObject:
   - 114: {fileID: 279968921}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3504,7 +3504,7 @@ GameObject:
   - 114: {fileID: 335250137}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3698,7 +3698,7 @@ GameObject:
   - 114: {fileID: 352890812}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3835,7 +3835,7 @@ GameObject:
   - 114: {fileID: 362725923}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3915,7 +3915,7 @@ GameObject:
   - 114: {fileID: 366853225}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4158,7 +4158,7 @@ GameObject:
   - 114: {fileID: 385346613}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4295,7 +4295,7 @@ GameObject:
   - 114: {fileID: 387367619}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4375,7 +4375,7 @@ GameObject:
   - 114: {fileID: 389062235}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4455,7 +4455,7 @@ GameObject:
   - 114: {fileID: 399474517}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4592,7 +4592,7 @@ GameObject:
   - 114: {fileID: 410031705}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4699,7 +4699,7 @@ GameObject:
   - 114: {fileID: 458234485}
   m_Layer: 0
   m_Name: Cookie
-  m_TagString: Untagged
+  m_TagString: Interactive
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4844,7 +4844,7 @@ GameObject:
   - 114: {fileID: 466538041}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4924,7 +4924,7 @@ GameObject:
   - 114: {fileID: 478055175}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5224,7 +5224,7 @@ GameObject:
   - 114: {fileID: 535830906}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5414,7 +5414,7 @@ GameObject:
   - 114: {fileID: 539661299}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5533,7 +5533,7 @@ GameObject:
   - 114: {fileID: 549533686}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5613,7 +5613,7 @@ GameObject:
   - 114: {fileID: 560431930}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5693,7 +5693,7 @@ GameObject:
   - 114: {fileID: 568780634}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5773,7 +5773,7 @@ GameObject:
   - 114: {fileID: 575557477}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5987,7 +5987,7 @@ GameObject:
   - 114: {fileID: 616820470}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6287,7 +6287,7 @@ GameObject:
   - 114: {fileID: 659531250}
   m_Layer: 0
   m_Name: Fridge
-  m_TagString: Untagged
+  m_TagString: Interactive
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6367,7 +6367,7 @@ GameObject:
   - 114: {fileID: 676500526}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6561,7 +6561,7 @@ GameObject:
   - 114: {fileID: 710496256}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6641,7 +6641,7 @@ GameObject:
   - 114: {fileID: 714810974}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6721,7 +6721,7 @@ GameObject:
   - 114: {fileID: 728368738}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6801,7 +6801,7 @@ GameObject:
   - 114: {fileID: 734439145}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6881,7 +6881,7 @@ GameObject:
   - 114: {fileID: 734939256}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7282,7 +7282,7 @@ GameObject:
   - 114: {fileID: 788523009}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7362,7 +7362,7 @@ GameObject:
   - 114: {fileID: 788697175}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7442,7 +7442,7 @@ GameObject:
   - 114: {fileID: 792673875}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7628,7 +7628,7 @@ GameObject:
   - 114: {fileID: 820190932}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7928,7 +7928,7 @@ GameObject:
   - 114: {fileID: 858119060}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8008,7 +8008,7 @@ GameObject:
   - 114: {fileID: 888665822}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8088,7 +8088,7 @@ GameObject:
   - 114: {fileID: 889547894}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8168,7 +8168,7 @@ GameObject:
   - 114: {fileID: 896160218}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8368,7 +8368,7 @@ GameObject:
   - 114: {fileID: 902168997}
   m_Layer: 0
   m_Name: Door
-  m_TagString: Untagged
+  m_TagString: Interactive
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8568,7 +8568,7 @@ GameObject:
   - 114: {fileID: 919399946}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8705,7 +8705,7 @@ GameObject:
   - 114: {fileID: 933384025}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8854,7 +8854,7 @@ GameObject:
   - 114: {fileID: 948555700}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8934,7 +8934,7 @@ GameObject:
   - 114: {fileID: 949452630}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9120,7 +9120,7 @@ GameObject:
   - 114: {fileID: 978646569}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9257,7 +9257,7 @@ GameObject:
   - 114: {fileID: 980051985}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9386,7 +9386,7 @@ GameObject:
   - 114: {fileID: 1011535660}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9584,7 +9584,7 @@ GameObject:
   - 114: {fileID: 1035570746}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9664,7 +9664,7 @@ GameObject:
   - 114: {fileID: 1038298761}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9801,7 +9801,7 @@ GameObject:
   - 114: {fileID: 1042287073}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9938,7 +9938,7 @@ GameObject:
   - 114: {fileID: 1086493427}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10322,7 +10322,7 @@ GameObject:
   - 114: {fileID: 1139313347}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10617,7 +10617,7 @@ GameObject:
   - 114: {fileID: 1173202081}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10697,7 +10697,7 @@ GameObject:
   - 114: {fileID: 1184428496}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10838,7 +10838,7 @@ GameObject:
   - 114: {fileID: 1189493946}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10918,7 +10918,7 @@ GameObject:
   - 114: {fileID: 1194180143}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11405,7 +11405,7 @@ GameObject:
   - 114: {fileID: 1287168618}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11648,7 +11648,7 @@ GameObject:
   - 114: {fileID: 1307486137}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11728,7 +11728,7 @@ GameObject:
   - 114: {fileID: 1329204329}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11910,6 +11910,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   normal_texture: {fileID: 2800000, guid: 5de3d8082e40a8e4485d367a4865bba4, type: 3}
+  hover_texture: {fileID: 0}
 --- !u!82 &1342617909
 AudioSource:
   m_ObjectHideFlags: 0
@@ -12116,7 +12117,7 @@ GameObject:
   - 114: {fileID: 1359174021}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12310,7 +12311,7 @@ GameObject:
   - 114: {fileID: 1382502769}
   m_Layer: 0
   m_Name: Ice Cream
-  m_TagString: Untagged
+  m_TagString: Interactive
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12390,7 +12391,7 @@ GameObject:
   - 114: {fileID: 1382936903}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12470,7 +12471,7 @@ GameObject:
   - 114: {fileID: 1383715110}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12607,7 +12608,7 @@ GameObject:
   - 114: {fileID: 1393687801}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12687,7 +12688,7 @@ GameObject:
   - 114: {fileID: 1393956020}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12767,7 +12768,7 @@ GameObject:
   - 114: {fileID: 1398674569}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12847,7 +12848,7 @@ GameObject:
   - 114: {fileID: 1415178724}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12927,7 +12928,7 @@ GameObject:
   - 114: {fileID: 1425196801}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13178,7 +13179,7 @@ GameObject:
   - 114: {fileID: 1440212308}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13412,7 +13413,7 @@ GameObject:
   - 114: {fileID: 1461296015}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13598,7 +13599,7 @@ GameObject:
   - 114: {fileID: 1473407765}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13678,7 +13679,7 @@ GameObject:
   - 114: {fileID: 1474335802}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13758,7 +13759,7 @@ GameObject:
   - 114: {fileID: 1481764128}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13952,7 +13953,7 @@ GameObject:
   - 114: {fileID: 1531514333}
   m_Layer: 0
   m_Name: lollipop
-  m_TagString: Untagged
+  m_TagString: Interactive
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14032,7 +14033,7 @@ GameObject:
   - 114: {fileID: 1533490287}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14112,7 +14113,7 @@ GameObject:
   - 114: {fileID: 1541456630}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14192,7 +14193,7 @@ GameObject:
   - 114: {fileID: 1541528775}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14526,7 +14527,7 @@ GameObject:
   - 114: {fileID: 1577858011}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14606,7 +14607,7 @@ GameObject:
   - 114: {fileID: 1581233370}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14686,7 +14687,7 @@ GameObject:
   - 114: {fileID: 1588036542}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14766,7 +14767,7 @@ GameObject:
   - 114: {fileID: 1616349671}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15074,7 +15075,7 @@ GameObject:
   - 114: {fileID: 1631584740}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15141,6 +15142,108 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: ebd2d5b3c70e5e5448bd4206ad14e963, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &1632006884
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1632006885}
+  - 114: {fileID: 1632006889}
+  - 114: {fileID: 1632006888}
+  - 114: {fileID: 1632006887}
+  - 114: {fileID: 1632006886}
+  - 114: {fileID: 1632006890}
+  m_Layer: 0
+  m_Name: Logic3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1632006885
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1632006884}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -50.8998566, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1787874879}
+  m_RootOrder: 2
+--- !u!114 &1632006886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1632006884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c2a2a07e0d45a841aa55e90dcfeb9e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Rend_obj: {fileID: 659531249}
+  spr1: {fileID: 21300000, guid: 33fa5988fc246ba4688b962169562aa7, type: 3}
+--- !u!114 &1632006887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1632006884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90709745850080b4da6d3ab6db79a3d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  object1: {fileID: 1562443997}
+  object2: {fileID: 659531249}
+  distance: 3
+--- !u!114 &1632006888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1632006884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fdf17e91e0f6f244b8cce75cae18d75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npc: {fileID: 1562443996}
+  obj: {fileID: 659531250}
+--- !u!114 &1632006889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1632006884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ce2446c1c2475a4bbef312d583ad428, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  conditions:
+  - {fileID: 1632006888}
+  - {fileID: 1632006887}
+  effects:
+  - {fileID: 1632006886}
+  - {fileID: 1632006890}
+--- !u!114 &1632006890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1632006884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19566e8344c5f864f87e4cbf46a7699a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subject_NPC: {fileID: 1562443996}
+  target_destination: {fileID: 1632006885}
 --- !u!1001 &1639064340
 Prefab:
   m_ObjectHideFlags: 0
@@ -15323,6 +15426,7 @@ GameObject:
   - 114: {fileID: 1645080623}
   - 114: {fileID: 1645080622}
   - 114: {fileID: 1645080621}
+  - 114: {fileID: 1645080624}
   m_Layer: 0
   m_Name: Logic2
   m_TagString: Untagged
@@ -15337,7 +15441,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1645080619}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -29.0577736, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1787874879}
@@ -15380,9 +15484,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   conditions:
-  - {fileID: 0}
+  - {fileID: 1645080622}
+  - {fileID: 1645080621}
   effects:
-  - {fileID: 0}
+  - {fileID: 1645080624}
+--- !u!114 &1645080624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1645080619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19566e8344c5f864f87e4cbf46a7699a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subject_NPC: {fileID: 1562443996}
+  target_destination: {fileID: 1645080620}
 --- !u!1001 &1650177910
 Prefab:
   m_ObjectHideFlags: 0
@@ -15453,7 +15571,7 @@ GameObject:
   - 114: {fileID: 1656118929}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15533,7 +15651,7 @@ GameObject:
   - 114: {fileID: 1658333289}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15613,7 +15731,7 @@ GameObject:
   - 114: {fileID: 1663224178}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15693,7 +15811,7 @@ GameObject:
   - 114: {fileID: 1681407331}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15822,7 +15940,7 @@ GameObject:
   - 114: {fileID: 1699200224}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15929,6 +16047,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   normal_texture: {fileID: 2800000, guid: 5de3d8082e40a8e4485d367a4865bba4, type: 3}
+  hover_texture: {fileID: 0}
 --- !u!1001 &1710800646
 Prefab:
   m_ObjectHideFlags: 0
@@ -15999,7 +16118,7 @@ GameObject:
   - 114: {fileID: 1716806585}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16189,7 +16308,7 @@ GameObject:
   - 114: {fileID: 1746695539}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16269,7 +16388,7 @@ GameObject:
   - 114: {fileID: 1750946546}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16349,7 +16468,7 @@ GameObject:
   - 114: {fileID: 1760795437}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16429,7 +16548,7 @@ GameObject:
   - 114: {fileID: 1775127981}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16523,6 +16642,7 @@ Transform:
   m_Children:
   - {fileID: 328917100}
   - {fileID: 1645080620}
+  - {fileID: 1632006885}
   m_Father: {fileID: 0}
   m_RootOrder: 6
 --- !u!1 &1822967407
@@ -16538,7 +16658,7 @@ GameObject:
   - 114: {fileID: 1822967409}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16618,7 +16738,7 @@ GameObject:
   - 114: {fileID: 1834532729}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16767,7 +16887,7 @@ GameObject:
   - 114: {fileID: 1857812589}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16896,7 +17016,7 @@ GameObject:
   - 114: {fileID: 1870952991}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16976,7 +17096,7 @@ GameObject:
   - 114: {fileID: 1877101318}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17174,7 +17294,7 @@ GameObject:
   - 114: {fileID: 1914545628}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17368,7 +17488,7 @@ GameObject:
   - 114: {fileID: 1920269436}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17448,7 +17568,7 @@ GameObject:
   - 114: {fileID: 1969765540}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17528,7 +17648,7 @@ GameObject:
   - 114: {fileID: 1972414692}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17885,7 +18005,7 @@ GameObject:
   - 114: {fileID: 2043042513}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17965,7 +18085,7 @@ GameObject:
   - 114: {fileID: 2102982881}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18045,7 +18165,7 @@ GameObject:
   - 114: {fileID: 2112512437}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18182,7 +18302,7 @@ GameObject:
   - 114: {fileID: 2120200585}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18262,7 +18382,7 @@ GameObject:
   - 114: {fileID: 2124054550}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18342,7 +18462,7 @@ GameObject:
   - 114: {fileID: 2141685094}
   m_Layer: 0
   m_Name: Decor
-  m_TagString: Untagged
+  m_TagString: Decor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
