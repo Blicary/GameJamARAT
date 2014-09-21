@@ -19,8 +19,6 @@ public class GodSound : MonoBehaviour
         
         music_see_more.volume = 1.0f - god.listen_avail;
         music_see_less.volume = 1;
-
-        Debug.Log(god.listen_avail);
     }
 	
 }

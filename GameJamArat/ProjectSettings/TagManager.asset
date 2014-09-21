@@ -45,3 +45,7 @@ TagManager:
     userID: 1
     uniqueID: 3038476413
     locked: 0
+  - name: Decor
+    userID: 2
+    uniqueID: 4247872741
+    locked: 0
