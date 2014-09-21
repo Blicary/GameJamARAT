@@ -48,6 +48,7 @@ public class NPC : MonoBehaviour
         }
     }
 
+
     // PUBLIC MODIFIERS
     public void LateUpdate()
     {
@@ -68,9 +69,26 @@ public class NPC : MonoBehaviour
         Debug.Log(listen_percent);
     }
 
+
     // PUBLIC ACCESSORS
     public bool HasTag(string tag) { return tags.Contains(tag); }
     public float GetListen() { return listen_percent; }
+    public bool AwareOfObject(WorldComponent obj)
+    {
+        RaycastHit2D hit = Physics2D.Linecast(transform.position, obj.transform.position);
+        
+        float dist = Vector2.Distance(transform.position, obj.transform.position);
+        Debug.Log("hit dist " + hit.distance);
+        Debug.Log("vision radius " + god.max_radius * listen_percent);
+
+        if (hit != null)
+        {
+            float vision_radius = god.max_radius * listen_percent;
+            if (vision_radius >= dist) return true;
+        }
+        return false;
+    }
+
 
     //EVENTS
     public void OnMouseEnter()
