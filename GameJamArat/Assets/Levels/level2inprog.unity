@@ -738,11 +738,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: 347d87ff8d645e2489dce4692eeff795, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -42.2879486
+      value: -47.0659561
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 347d87ff8d645e2489dce4692eeff795, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 5.42666531
+      value: 5.81670284
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 347d87ff8d645e2489dce4692eeff795, type: 2}
       propertyPath: m_LocalPosition.z
@@ -803,7 +803,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 347d87ff8d645e2489dce4692eeff795, type: 2}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 347d87ff8d645e2489dce4692eeff795, type: 2}
@@ -14452,8 +14452,8 @@ Transform:
   m_PrefabInternal: {fileID: 47057254}
   m_GameObject: {fileID: 1562443993}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -42.2879486, y: 5.42666531, z: 0}
-  m_LocalScale: {x: 1.13585126, y: 1.13585138, z: 1}
+  m_LocalPosition: {x: -47.0659561, y: 5.81670284, z: 0}
+  m_LocalScale: {x: 1.13585126, y: 1.13585138, z: 5}
   m_Children: []
   m_Father: {fileID: 290068916}
   m_RootOrder: 0
@@ -15155,6 +15155,7 @@ GameObject:
   - 114: {fileID: 1632006887}
   - 114: {fileID: 1632006886}
   - 114: {fileID: 1632006890}
+  - 114: {fileID: 1632006891}
   m_Layer: 0
   m_Name: Logic3
   m_TagString: Untagged
@@ -15169,7 +15170,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1632006884}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -50.8998566, y: 0, z: 0}
+  m_LocalPosition: {x: -37.7297821, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1787874879}
@@ -15231,6 +15232,7 @@ MonoBehaviour:
   effects:
   - {fileID: 1632006886}
   - {fileID: 1632006890}
+  - {fileID: 1632006891}
 --- !u!114 &1632006890
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15244,6 +15246,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   subject_NPC: {fileID: 1562443996}
   target_destination: {fileID: 1632006885}
+--- !u!114 &1632006891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1632006884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10357bd71703ca147adb2ff779a27a42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 1632006885}
 --- !u!1001 &1639064340
 Prefab:
   m_ObjectHideFlags: 0
@@ -15427,6 +15441,7 @@ GameObject:
   - 114: {fileID: 1645080622}
   - 114: {fileID: 1645080621}
   - 114: {fileID: 1645080624}
+  - 114: {fileID: 1645080625}
   m_Layer: 0
   m_Name: Logic2
   m_TagString: Untagged
@@ -15488,6 +15503,7 @@ MonoBehaviour:
   - {fileID: 1645080621}
   effects:
   - {fileID: 1645080624}
+  - {fileID: 1645080625}
 --- !u!114 &1645080624
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15501,6 +15517,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   subject_NPC: {fileID: 1562443996}
   target_destination: {fileID: 1645080620}
+--- !u!114 &1645080625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1645080619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10357bd71703ca147adb2ff779a27a42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 1645080620}
 --- !u!1001 &1650177910
 Prefab:
   m_ObjectHideFlags: 0
@@ -16047,7 +16075,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   normal_texture: {fileID: 2800000, guid: 5de3d8082e40a8e4485d367a4865bba4, type: 3}
-  hover_texture: {fileID: 0}
+  hover_texture: {fileID: 2800000, guid: 9bc289c3a5cb50f4c95bdfef446eb8de, type: 3}
 --- !u!1001 &1710800646
 Prefab:
   m_ObjectHideFlags: 0

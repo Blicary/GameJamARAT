@@ -93,7 +93,8 @@ public class NPC : MonoBehaviour
 
     private void UpdatePosition() // The NPC uses this to execute actual movement.
     {
-        Debug.Log((Time.time-start_time)*move_speed);
+        //Debug.Log((Time.time-start_time)*move_speed);
+        //Debug.Log("moving");
         float dist_covered = (Time.time - start_time) * move_speed;
         float fracJourney = dist_covered / travel_distance;
         if (fracJourney < 1)
@@ -152,6 +153,7 @@ public class NPC : MonoBehaviour
     //EVENTS
     public void OnMouseEnter()
     {
+        Debug.Log("enter");
         god.SetHoveredNPC(this);
         cursor_controller.SetHover();
     }
