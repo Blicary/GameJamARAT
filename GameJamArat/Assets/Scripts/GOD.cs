@@ -6,7 +6,7 @@ public class GOD : MonoBehaviour
 
     public float max_radius = 40f;            // The total listen radius possible.
     private float max_listen = 1.0f;
-    public float listen_avail;        // The net amount of listen available.
+    private float listen_avail;        // The net amount of listen available.
 
     private NPC active_NPC;             // The NPC that is currently selected to recieve listen.
     private float command_scroll = 0.0f;      // The amount of listen to be imparted to the selected NPC.    
