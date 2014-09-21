@@ -12,7 +12,7 @@ public class NPC : MonoBehaviour
     public float move_speed;
     private Vector2 target_pos;
 
-    private float listen_percent = 0.5f;
+    private float listen_percent = 0.0f;
     private bool selected = false;
 
     // PRIVATE MODIFIERS
