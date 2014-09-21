@@ -9,7 +9,7 @@ public class NPC : MonoBehaviour
     public string ID_name;
     private List<string> tags = new List<string>();
 
-    public float move_speed = 5f;
+    private float move_speed = 10.0f;
     private Vector2 target_pos;
     private Vector2 start_pos;
     private float fraction_speed;
@@ -69,10 +69,10 @@ public class NPC : MonoBehaviour
         UpdateHypotheticalListenArea();
     }
 
-    public void Move(Vector2 dest) // Call this during scripting to move the nPC to a location.
+    public void Move(Transform dest) // Call this during scripting to move the nPC to a location.
     {
         start_time = Time.time;
-        target_pos = dest;
+        target_pos = new Vector2(dest.position.x,dest.position.y);
         is_moving = true;
         start_pos = transform.position;
         travel_distance = Vector2.Distance(start_pos, target_pos);
@@ -80,9 +80,17 @@ public class NPC : MonoBehaviour
 
     private void UpdatePosition() // The NPC uses this to execute actual movement.
     {
+        Debug.Log((Time.time-start_time)*move_speed);
         float dist_covered = (Time.time - start_time) * move_speed;
         float fracJourney = dist_covered / travel_distance;
-        Vector2.Lerp(start_pos, target_pos, fracJourney);
+        if (fracJourney < 1)
+        {
+            transform.position = Vector2.Lerp(start_pos, target_pos, fracJourney);
+        }
+        else
+        {
+            is_moving = false;
+        }
     }
 
     public void ModifyListen(float amount)
