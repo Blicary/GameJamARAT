@@ -12,6 +12,7 @@ public class WorldComponent : MonoBehaviour
     private float live_time;
     private float flicker_time_max = 1;
     private float flicker_time;
+    private float mini_flicker_chance = 0.001f;
 
 
     private WorldComponentState state;
@@ -28,6 +29,10 @@ public class WorldComponent : MonoBehaviour
 
     public void Update()
     {
+        // mini flicker random chance
+        if (state == WorldComponentState.On && Random.value < mini_flicker_chance) DoMiniFlicker();
+
+        // flickering
         if (state == WorldComponentState.FlickeringOn || state == WorldComponentState.FlickeringOff)
         {
             Flicker();
@@ -38,6 +43,8 @@ public class WorldComponent : MonoBehaviour
                 else SetOff();
             }
         }
+
+        // timing out
         else if (state == WorldComponentState.On)
         {
             live_time -= Time.deltaTime;
@@ -48,7 +55,7 @@ public class WorldComponent : MonoBehaviour
         }
     }
 
-    public void Flicker()
+    private void Flicker()
     {
         if ((int)(flicker_time * 100) % 4 == 0)
         {
@@ -77,6 +84,13 @@ public class WorldComponent : MonoBehaviour
         gameObject.renderer.enabled = false;
     }
 
+    public void DoMiniFlicker()
+    {
+        state = WorldComponentState.FlickeringOn;
+        flicker_time = flicker_time_max;
+        gameObject.renderer.enabled = true;
+    }
+
     private void SetOn()
     {
         renderer.enabled = true;
@@ -89,6 +103,7 @@ public class WorldComponent : MonoBehaviour
         state = WorldComponentState.Off;
         live_time = 0;
     }
+
 
     // PUBLIC ACCESSORS
     public bool IsOn() { return state == WorldComponentState.On || state == WorldComponentState.FlickeringOn; }
