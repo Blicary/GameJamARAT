@@ -1360,7 +1360,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   god: {fileID: 1342617906}
-  ID_name: mother
+  ID_name: child
 --- !u!1 &92528127
 GameObject:
   m_ObjectHideFlags: 0
@@ -3449,7 +3449,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 659531249}
-  radius: 1
 --- !u!114 &328917099
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3778,7 +3777,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 180d6a1536a886842bced8e7a21b01a9, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 10.3353968
+      value: 10.4200945
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 180d6a1536a886842bced8e7a21b01a9, type: 2}
       propertyPath: m_LocalPosition.z
@@ -7018,7 +7017,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 347d87ff8d645e2489dce4692eeff795, type: 2}
       propertyPath: ID_name
-      value: mother
+      value: child
       objectReference: {fileID: 0}
     - target: {fileID: 6100000, guid: 347d87ff8d645e2489dce4692eeff795, type: 2}
       propertyPath: m_Size.x
@@ -12483,7 +12482,7 @@ Transform:
   m_PrefabInternal: {fileID: 361781515}
   m_GameObject: {fileID: 1383715108}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -31.0389194, y: 10.3353968, z: 0}
+  m_LocalPosition: {x: -31.0389194, y: 10.4200945, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1123969134}
