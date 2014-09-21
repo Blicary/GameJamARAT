@@ -32,7 +32,8 @@ public class NPC : MonoBehaviour
     }
     private void UpdateHypotheticalListenArea()
     {
-        Debug.Log("hype rad" + god.GetHypotheticalPercent() * god.max_radius);
+        if (this != god.GetActiveNPC()) return;
+
         Collider2D[] col = Physics2D.OverlapCircleAll(transform.position, god.GetHypotheticalPercent() * god.max_radius);
         //Debug.Log(col.Length);
         for (int i = 0; i < col.Length; ++i)
@@ -41,7 +42,7 @@ public class NPC : MonoBehaviour
             if (wc != null)
             {
                 wc.TurnOn();
-                wc.SetColored();
+                wc.SetColored(true);
             }
 
         }

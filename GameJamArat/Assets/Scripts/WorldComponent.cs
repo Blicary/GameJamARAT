@@ -8,9 +8,11 @@ public class WorldComponent : MonoBehaviour
 {
     public List<string> tags = new List<string>();
 
+    private bool hypothetical = false;
+
     private float live_time_max = 1;
     private float live_time;
-    private float flicker_time_max = 1;
+    private float flicker_time_max = 0.5f;
     private float flicker_time;
     private float mini_flicker_chance = 0.0007f;
 
@@ -47,6 +49,7 @@ public class WorldComponent : MonoBehaviour
         // timing out
         else if (state == WorldComponentState.On)
         {
+            if (hypothetical) live_time = 0;
             live_time -= Time.deltaTime;
             if (live_time <= 0)
             {
@@ -70,9 +73,35 @@ public class WorldComponent : MonoBehaviour
         flicker_time = flicker_time_max;
         gameObject.renderer.enabled = false;
     }
-    public void SetColored()
+    public void SetOn()
     {
-        GetComponent<SpriteRenderer>().color = Color.blue;
+        renderer.enabled = true;
+        state = WorldComponentState.On;
+        live_time = live_time_max;
+    }
+    public void SetOff()
+    {
+        renderer.enabled = false;
+        state = WorldComponentState.Off;
+        live_time = 0;
+    }
+    public void SetColored(bool set)
+    {
+        if (set)
+        {
+            GetComponent<SpriteRenderer>().color = Color.blue;
+            hypothetical = true;
+        }
+        else
+        {
+            GetComponent<SpriteRenderer>().color = Color.white;
+            hypothetical = false;
+        }
+    }
+
+    public void OnNPCDeselect()
+    {
+        SetColored(false);
     }
 
 
@@ -90,18 +119,7 @@ public class WorldComponent : MonoBehaviour
         }
     }
 
-    private void SetOn()
-    {
-        renderer.enabled = true;
-        state = WorldComponentState.On;
-        live_time = live_time_max;
-    }
-    private void SetOff()
-    {
-        renderer.enabled = false;
-        state = WorldComponentState.Off;
-        live_time = 0;
-    }
+    
     private void DoMiniFlicker()
     {
         state = WorldComponentState.FlickeringOn;
