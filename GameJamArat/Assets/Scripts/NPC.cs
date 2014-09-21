@@ -120,7 +120,21 @@ public class NPC : MonoBehaviour
         }
         return false;
     }
+    public bool AwareOfNPC(NPC npc)
+    {
+        RaycastHit2D hit = Physics2D.Linecast(transform.position, npc.transform.position);
 
+        float dist = Vector2.Distance(transform.position, npc.transform.position);
+        //Debug.Log("hit dist " + hit.distance);
+        //Debug.Log("vision radius " + god.max_radius * listen_percent);
+
+        if (hit != null)
+        {
+            float vision_radius = god.max_radius * listen_percent;
+            if (vision_radius >= dist) return true;
+        }
+        return false;
+    }
 
     //EVENTS
     public void OnMouseEnter()
