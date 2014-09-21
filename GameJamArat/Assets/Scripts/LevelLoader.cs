@@ -8,6 +8,12 @@ public class LevelLoader : MonoBehaviour
     public List<string> levels_ordered;
     private int level_index = 0;
 
+
+    public void Start()
+    {
+        DontDestroyOnLoad(transform);
+    }
+
     public void FirstLevel()
     {
         level_index = 0;
