@@ -4653,7 +4653,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 1342617907}
   - 114: {fileID: 1342617906}
-  - 114: {fileID: 1342617908}
   m_Layer: 0
   m_Name: God
   m_TagString: Untagged
@@ -4687,20 +4686,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
---- !u!114 &1342617908
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1342617905}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c64225c55dcf9724087838285b8f06a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  god: {fileID: 1342617906}
-  npc: {fileID: 1562443996}
-  cam_shake: {fileID: 1442178997}
 --- !u!1 &1347053117
 GameObject:
   m_ObjectHideFlags: 0

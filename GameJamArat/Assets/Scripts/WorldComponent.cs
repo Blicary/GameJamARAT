@@ -8,6 +8,8 @@ public class WorldComponent : MonoBehaviour
 {
     public List<string> tags = new List<string>();
 
+    private CameraShake cam_shake;
+
     public Material mat_normal;
     public Material mat_hypothetical;
 
@@ -30,6 +32,9 @@ public class WorldComponent : MonoBehaviour
 
         state = WorldComponentState.Off;
         renderer.enabled = false;
+
+        cam_shake = Camera.main.GetComponent<CameraShake>();
+        if (!cam_shake) Debug.Log("Warning: no camera shake found on main camera");
     }
 
     public void Update()
@@ -116,6 +121,8 @@ public class WorldComponent : MonoBehaviour
     {
         if ((int)(flicker_time * 100) % 4 == 0)
         {
+            cam_shake.Shake(new CamShakeInstance(0.0008f, 1f));
+
             if (Random.value > 0.5f)
             {
                 renderer.enabled = true;
